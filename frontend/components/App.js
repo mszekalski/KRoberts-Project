@@ -19,9 +19,6 @@ const instructions = Platform.select({
 
 type Props = {};
 export default class App extends Component<Props> {
-  componentDidMount() {
-    UsersUtil.fetchAllUsers();
-  }
   render() {
     return (
       <View style={styles.container}>
