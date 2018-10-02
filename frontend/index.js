@@ -5,10 +5,10 @@ import { AppRegistry } from "react-native";
 // import { name as appName } from "./app.json";
 
 import React, { Component } from "react";
-import { configureStore } from "./redux/store";
+import { configureStore } from "./store/store";
 import { Provider } from "react-redux";
 
-import App from "./App.container";
+import App from "./App";
 
 const store = configureStore();
 
